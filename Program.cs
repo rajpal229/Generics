@@ -4,8 +4,8 @@
     {
         static void Main(string[] args)
         {
-            int maxint = FindMax.FindIntMax(1, 2, 3);
-            Console.WriteLine("The maximum number is : " + maxint);
+            float maxfloat = FindMax.FindFloatMax(3.1f, 2.1f, 1.1f);
+            Console.WriteLine("The maximum number is : " + maxfloat);
         }
     }
 }
