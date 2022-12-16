@@ -23,7 +23,6 @@ namespace Generics
                 return num3;
             }
             return 0;
-
         }
     }
 }
