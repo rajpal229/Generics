@@ -8,7 +8,7 @@ namespace Generics
 {
     internal class FindMax
     {
-        public static string FindStringMax(string num1, string num2, string num3)
+        public static T FindMaxNumber<T>(T num1, T num2, T num3) where T:IComparable
         {
             if (num1.CompareTo(num2) > 0 && num1.CompareTo(num3) > 0)
             {
@@ -22,7 +22,7 @@ namespace Generics
             {
                 return num3;
             }
-            return "";
+            return default;
         }
     }
 }
